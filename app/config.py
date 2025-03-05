@@ -4,7 +4,7 @@ from typing import Optional
 
 class Settings(BaseSettings):
     # API Base URL
-    API_BASE_URL: str = Field(default="http://服务ip:2531/v2/api")
+    API_BASE_URL: str = Field(default="http://0.0.0.0:2531/v2/api")
     
     # API Token
     API_TOKEN: str = Field(default="")
