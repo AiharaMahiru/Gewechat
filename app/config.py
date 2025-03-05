@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     API_BASE_URL: str = Field(default="http://0.0.0.0:2531/v2/api")
     
     # API Token
-    API_TOKEN: str = Field(default="")
+    API_TOKEN: str = Field(default="123456")
     
     # Connection settings
     TIMEOUT_SECONDS: int = Field(default=60)

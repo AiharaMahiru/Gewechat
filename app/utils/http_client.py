@@ -4,8 +4,8 @@ import httpx
 from typing import Dict, Any, Optional
 
 class HttpClient:
-    base_url = "http://服务ip:2531/v2/api"
-    token = ""
+    base_url = "http://0.0.0.0:2531/v2/api"
+    token = "123456"
     
     @staticmethod
     def create_ssl_context():
